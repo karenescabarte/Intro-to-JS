@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.container {
+	max-width: 970px;
+}
+
+.comments {
+	padding: 20px;
+}
+
+.navbar {
+	width: 300px;
+	height: 100vh;
+	background-color: #f5f2f0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.chapter {
+	padding: 20px;
+}
+.chapter h3 {
+	color: #b7b4b1;
+}
+
+.chapter p {
+	color: #333;
+	margin-top: 10px;
+}
+
+.lesson-nav {
+	padding: 0 20px;
+}
+.lesson-nav h3 {
+	color: #b7b4b1;
+}
+
+.lesson-nav ul li {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.main {
+	width: 660px;
+	height: 100vh;
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+.wrapper {
+	padding: 10px 30px;
+}
+
+.wrapper #introduction p {
+	margin: 10px 0;
+}
+
+.wrapper #content p {
+	margin: 10px 0;
+}
+
+.box1 {
+	border: 1px solid gray;
+	padding: 10px;
+	margin-left: 20px;
+}
+.box2 {
+	border: 1px solid gray;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.box2 ol li {
+	margin-left: 30px;
+}
